@@ -16,3 +16,8 @@ Instrucciones de uso:
 -Si uno reinicia el sitio, los datos se guardan en el localstorage
 -En caso de buscar una ciudad inexistente, saltara un error
 -El sitio es responsive :)
+
+------------------------------------------------
+DATO DE VITAL IMPORTANCIA:
+
+-La api puede tener "lag" y tardar hasta MAS DE 10 SEGUNDOS en reaccionar.
