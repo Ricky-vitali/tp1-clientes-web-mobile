@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Ricardo Vitali, Catedra PWA</title>
+    <script src="scripts/main.js" defer></script>
+</head>
+
+<body>
+    <div class="fluid-container">
+
+        <div>
+            <h1 class="mb-4 text-center">Climax</h1>
+            <div class="form-control">
+                <div class="form-label">
+                    <form>
+                        <div class="form-group">
+                            
+                            <label for="city" class="visually-hidden">Buscar ciudad / pais </label>
+                            <input type="text" name="city" id="city" placeholder="Ciudad / pais" class="form-control">
+                            <input type="submit" value="Buscar" class="btn btn-primary">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="answer" style="display:none">
+                <p id="error" style="display:none;color: red;">No se encontro la ciudad</p>
+                <dl>
+                    <dt><span id="cityname">Ciudad</span></dt>
+                    <dd>Temperatura actual: <span id="now">00</span></dd>
+                    <dd>Sensacion Termica: <span id="feel">00</span></dd>
+                    <dd>Temperatura máxima: <span id="max">00</span></dd>
+                    <dd>Temperatura mínima: <span id="min">00</span></dd>
+                    <dd>Velocidad del viento: <span id="speed">00</span></dd>
+                    <dd>Humedad: <span id="humidity">00</span></dd>
+                    <dd>Presion atmosferica: <span id="pressure">00</span></dd>
+                    <dd>Clima actual: <span id="weather">Cloudy</span>.</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
